@@ -26,7 +26,7 @@ document.getElementById("sorteioForm").addEventListener("submit", function (e) {
 
 document.getElementById("limparBtn").addEventListener("click", function () {
     document.getElementById("sorteioForm").reset();
-    document.getElementById("resultado").innerHTML = ""; // Limpa o resultado
+    document.getElementById("resultado").innerHTML = ""; 
   });
   
   
